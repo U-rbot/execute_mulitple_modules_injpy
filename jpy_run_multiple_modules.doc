@@ -1,0 +1,37 @@
+Create Your Python Module:
+
+First, create a Python script with the functions or code you want to use as a module. Save this script with a .py extension. For example, let's say you have a script named my_module.py:
+
+python
+Copy code
+def greet(name):
+    return f"Hello, {name}!"
+
+def add(a, b):
+    return a + b
+Upload the Module to Jupyter:
+
+Next, you need to upload your my_module.py script to your Jupyter Notebook environment. You can do this by clicking the "Upload" button in your Jupyter environment and selecting your .py file.
+
+Import and Use Your Module in the Notebook:
+
+In a Jupyter Notebook cell, you can import and use the functions from your module as follows:
+
+python
+Copy code
+from my_module import greet, add
+
+result = greet("Alice")
+print(result)
+
+sum_result = add(5, 7)
+print(sum_result)
+Remember to replace my_module with the actual name of your module's file without the .py extension.
+
+Run the Notebook Cells:
+
+After importing the module and writing your code in the Notebook cells, you can run the cells to execute the code. Click the "Run" button or use the appropriate keyboard shortcut (usually Shift + Enter) to execute the cell and see the output.
+
+By following these steps, you'll be able to create and use your own Python module-based script within a Jupyter Notebook environment.
+
+
