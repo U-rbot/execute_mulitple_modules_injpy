@@ -1,0 +1,24 @@
+Create or Upload the .py File:
+
+Make sure you have the Python script (.py file) that you want to run in your Jupyter environment. You can either create a new Python file in the Jupyter environment itself or upload an existing .py file.
+
+Create a New Jupyter Notebook:
+
+Start by creating a new Jupyter Notebook by clicking on "New" and selecting "Python 3" (or another appropriate kernel) from the dropdown menu.
+
+Run the Script:
+
+In a code cell within the Jupyter Notebook, you can use the %run magic command followed by the path to your Python script. The %run command allows you to run Python scripts directly from the Jupyter Notebook.
+
+For example, if your script is named my_script.py and it's located in the same directory as your notebook, you can use the following command in a code cell:
+
+python
+Copy code
+%run my_script.py
+If your script is located in a different directory, provide the full or relative path to the script.
+
+View Output:
+
+As the script runs, any output it generates will be displayed directly in the notebook, just like when you run code cells.
+
+It's important to note that when you use the %run magic command, the script's variables and functions will be available in the notebook's global scope, allowing you to access and manipulate them in subsequent cells.
